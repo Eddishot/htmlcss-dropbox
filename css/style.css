@@ -111,10 +111,10 @@ h2{
 }
 
 .col-3-9{
-    width: calc(100% / 9 * 2.9);
+    width: calc(100% / 9 * 3);
     border: 1px solid gray;
     min-height: 700px;
-    display: inline-block
+    float: left;
     
 }
 .col-3-9__h5{
@@ -271,18 +271,20 @@ li{
 
 
 .designit__1half{
-   width: 100vw; 
+   width: 100vw;
+   height: 20vw; 
     
 }
 
 .designit__1half-left-side{
-    height: 20vw;
+    height: 100%;
     width: 30%;
+    float: left;
 
 }
 .designit__1half-left-side__square{
     width: 50%;
-    height: 15vw;
+    height: 50%;
     float: left;
     position: relative;
     background-color: skyblue;
@@ -296,4 +298,33 @@ li{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert();
+}
+
+.designit__1half-middle{
+    width:40%; 
+    height: 100%;
+    float: left;
+    padding:40px;
+}
+
+.designit__1half-middle__square{
+    width: 100px;
+    /* height: 50%; */
+    
+
+}
+
+.designit__1half-middle__square__immage{
+    width: 100%;
+}
+
+.designit__1half-middle__square__paragraph{
+    margin-top: 40px;
+}
+
+.designit__1half-right-side{
+    height: 100%;
+    width: 30%;
+    float: left;
 }
