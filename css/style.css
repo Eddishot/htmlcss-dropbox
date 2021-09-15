@@ -306,6 +306,7 @@ li{
     height: 100%;
     float: left;
     padding:40px;
+    background-color: rgb(163, 163, 163);
 }
 
 .designit__1half-middle__square{
@@ -327,4 +328,87 @@ li{
     height: 100%;
     width: 30%;
     float: left;
+}
+
+.designit__2half{
+    width: 100%;
+    height: 20vw;
+    background-color:  skyblue;
+}
+
+.designit__2half__title{
+    width: 50%;
+    float: left;
+    padding: 70px;
+}
+
+
+.designit__2half__button{
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+    
+}
+h3{
+    font-size: 33px;
+}
+
+.designit__2half__button{
+    border: none;
+    
+
+}
+
+.section-faq{
+    width: 1010px;
+    margin: auto;
+    margin-top: 150px;
+    
+}
+
+.section-faq__title{
+    margin-bottom: 50px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+
+.section-faq__list-item{
+    margin-bottom:50px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+
+.section-faq__list-item{
+    font-weight: 900;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+
+}
+
+
+.footer__col{
+    width: calc(100% / 5 * 1 );
+    float: left;
+    margin-top: 100px;
+    padding-left: 25px;
+
+}
+
+.footer__col-title{
+    padding-bottom: 30px;
+}
+
+.footer__col-list-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-icon{
+    padding-left: 25px;
+    padding-top: 100px;
 }
